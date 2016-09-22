@@ -3,9 +3,7 @@
 ## End:
 
 #Git
-
-alias gitlog='git log --pretty=format:"%h - %an, %ar : %s"'
-alias gst='git st'
+alias gitlog='git log --oneline --all --graph --decorate'
 
 #Maven
 export M3_HOME=/data/opt/apache-maven-3.2.5/ #links eventually to /usr/share/maven/bin/mvn
@@ -16,6 +14,12 @@ export MAVEN_OPTS="-Xmx2048m -XX:MaxPermSize=2048M"
 #
 export PATH=/home/mfuog/bin:$PATH
 cdpath=(/data/home/mfuog/projects)
+
+#Golang
+export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:~/projects/go/bin
+export GOROOT=/usr/local/go
+export GOPATH=~/projects/go
 
 #TMUX
 alias tmux="tmux -2"
