@@ -249,7 +249,7 @@ mouse_warping none
 # workspace assignments
 #use xprop to find class (second value)
 assign [class="Gnome-terminal"] $w1
-assign [class="google-chrome" window_role="browser"] $w2
+assign [class="Google-chrome" window_role="browser"] $w2
 assign [class="chromium-browser" window_role="browser"] $w2
 assign [class="jetbrains-idea"] $w3 
 assign [class="Emacs24"] $w3
