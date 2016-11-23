@@ -255,7 +255,7 @@ assign [class="jetbrains-idea"] $w3
 assign [class="Emacs24"] $w3
 assign [class="Franz"] $w4
 assign [class="Rambox"] $w4
-assign [class="telegram"] $w4
+assign [class="Telegram"] $w4
 assign [class="Slack"] $w4
 assign [class="Firefox"] $w8
 # fix spotify-specific issue: https://community.spotify.com/t5/Help-Desktop-Linux-Windows-Web/WM-CLASS-window-property-on-Linux/td-p/1247042
