@@ -96,6 +96,8 @@ set $w1 "1: terminal"
 set $w2 "2: Chrome"
 set $w3 "3: ide"
 set $w4 "4: chat"
+set $w5 "5: dolphin"
+set $w6 "6: MySQL"
 set $w8 "8: FireFox"
 set $w9 "9: music"
 
@@ -104,8 +106,8 @@ bindsym $mod+1 workspace $w1
 bindsym $mod+2 workspace $w2; layout tabbed
 bindsym $mod+3 workspace $w3; layout tabbed
 bindsym $mod+4 workspace $w4
-bindsym $mod+5 workspace 5
-bindsym $mod+6 workspace 6
+bindsym $mod+5 workspace $w5
+bindsym $mod+6 workspace $w6
 bindsym $mod+7 workspace 7
 bindsym $mod+8 workspace $w8
 bindsym $mod+9 workspace $w9
@@ -116,8 +118,8 @@ bindsym $mod+Shift+1 move container to workspace $w1
 bindsym $mod+Shift+2 move container to workspace $w2
 bindsym $mod+Shift+3 move container to workspace $w3
 bindsym $mod+Shift+4 move container to workspace $w4
-bindsym $mod+Shift+5 move container to workspace 5
-bindsym $mod+Shift+6 move container to workspace 6
+bindsym $mod+Shift+5 move container to workspace $w5
+bindsym $mod+Shift+6 move container to workspace $w6
 bindsym $mod+Shift+7 move container to workspace 7
 bindsym $mod+Shift+8 move container to workspace $w8
 bindsym $mod+Shift+9 move container to workspace $w9
@@ -257,6 +259,8 @@ assign [class="Franz"] $w4
 assign [class="Rambox"] $w4
 assign [class="Telegram"] $w4
 assign [class="Slack"] $w4
+assign [class="dolphin"] $w5
+assign [class="Mysql-workbench-bin"] $w6
 assign [class="Firefox"] $w8
 # fix spotify-specific issue: https://community.spotify.com/t5/Help-Desktop-Linux-Windows-Web/WM-CLASS-window-property-on-Linux/td-p/1247042
 for_window [class="Spotify"] move to workspace $w9
